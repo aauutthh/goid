@@ -44,3 +44,4 @@ TEXT ·GetGoIDAsm(SB),NOSPLIT,$0-8
 	nothas_GOIDOFFSET:
 	MOVQ $-0x1, ret+0(FP)
 	RET
+
