@@ -1,4 +1,4 @@
-package goid
+package main
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("main goid:", goid.GetGoIDAsm())
 	go func() {
 		fmt.Println("goid:", goid.GetGoID())
-		fmt.Println("goid:", doid.GetGoIDAsm())
+		fmt.Println("goid:", goid.GetGoIDAsm())
 	}()
 	time.Sleep(time.Second * 2)
 }
